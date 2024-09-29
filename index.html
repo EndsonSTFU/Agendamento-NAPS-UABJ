@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<hmtl>
+<html>
   <head>
-    <title>CADASTRO</title>
+    <title>LANDING</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimun-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
     <script type="text/javascript" src="js/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
     <!-- MENU -->
     <nav class="navbar">
-      <img class="logo" src="img/ShopBag.svg" />
-      <ul class="nav-links" id="nav-links">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="./LOGIN/index.html">Login</a></li>
-        <li><a href="./MaisProdutos/index.html">Produtos</a></li>
-        <li><a href="./COMPRA/index.html">Carrinho</a></li>
-        <li><a href="./CADASTRO/index.html">Cadastro</a></li>
-        <li class="ctn"><a href="#contact">CONTATO</a></li>
-      </ul>
+      <img class="logo" src="img/plano-de-saude.png" />
+      <ul class="nav-links" id="nav-links"></ul>
       <img src="img/menu-btn.png" id="menu-btn" class="menu-btn" />
     </nav>
+
     <header>
       <div class="header-content">
-        <h2>Sinta o sabor da vida</h2>
+        <h2>Saúde em primeiro lugar</h2>
         <div class="line"></div>
-        <h1>REI DO SITES</h1>
+        <h1>Núcleo de Acompanhamento Psicossocial (NAPS)</h1>
         <a href="#events" class="ctn">Veja mais</a>
       </div>
     </header>
@@ -40,28 +28,27 @@
     <!-- EVENTOS -->
     <section class="events">
       <div class="title">
-        <h1>Produtos mais vendidos</h1>
+        <h1>Sobre</h1>
         <div class="line"></div>
       </div>
       <div class="row">
         <div class="column">
-          <img src="./img/cafe.jpg" alt="" />
-          <h4>TESTE</h4>
+          <img src="./img/equipe-medica.png" alt="" />
+          <h4>Quem somos</h4>
           <p>
-            O café, além de ser delicioso, faz muito bem para a saúde. O café
-            pode ser um aliado na luta contra doenças como câncer.
+            O Núcleo de Acompanhamento Psicossocial (NAPS), constituído em função da suspensão das atividades presenciais, tem por
+            objetivo acompanhar os servidores e estudantes quanto às suas condições de conectividade, acessibilidade social e saúde
+            psicológica, bem como para dialogar com as Subcomissões Locais de Acompanhamento.
           </p>
-          <a href="./MaisProdutos/" class="ctn">Ver mais</a>
         </div>
         <div class="column">
-          <img src="./img/brocolis.png" alt="" />
-          <h4>Brócolis</h4>
+          <img src="./img/sau.png" alt="" />
+          <h4>Nossa plataforma</h4>
           <p>
-            Os brócolis ou brócolos são vegetais da família Brassicaceae, uma
-            das formas cultivadas de couve, tal como a couve-flor, o repolho,
-            couve-de-bruxelas, couve-nabo entre outras.
+            Nossa plataforma foi desenvolvida com o intuito de ajudar as pessoas a agendarem consultas no NAPS de forma mais acessível
+            e prática, proporcionando maior autonomia. Além disso, auxilia a equipe de especialistas do NAPS a gerenciar seus pacientes
+            de maneira ágil.
           </p>
-          <a href="./MaisProdutos/" class="ctn">Ver mais</a>
         </div>
       </div>
     </section>
@@ -71,8 +58,7 @@
         <h1>APROVEITE A VIDA</h1>
         <div class="line"></div>
         <p>
-          Sempre realizamos o acompanhamento dos produtos através de aplicações
-          modernas e seguras.
+          Sempre realizamos o acompanhamento dos pacientes para uma melhor qualidade de vida.
         </p>
       </div>
     </section>
@@ -86,7 +72,7 @@
         <iframe
           width="896"
           height="504"
-          src="https://www.youtube.com/embed/Jp1lJumg-Cc"
+          src="https://www.youtube.com/embed/teRJd1eS_cc"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -98,90 +84,62 @@
     <section class="formulario">
       <div class="contato">
         <div class="title-form">
-          <h1>Nos diga o que achou</h1>
+          <h1>Membros da Equipe</h1>
           <div class="line"></div>
         </div>
         <form class="form" name="name">
-          <textarea
-            class="field"
-            name="mesage"
-            placeholder="Deixe alguma sugestão"
-            required
-          ></textarea>
-          <input type="submit" class="btn-form" value="Enviar" />
+          <div class="rectangle-container">
+            <div class="rectangle">
+              <div class="rectangle-title">Jean Guilherme</div>
+              <div class="rectangle-text">
+                Jean é o Scrum Master da equipe, facilitando a aplicação de metodologias ágeis e garantindo a eficiência do time. Além
+                disso, é especializado em front-end, desenvolvendo interfaces de usuário intuitivas e de alta qualidade. Ele equilibra
+                suas funções técnicas e de liderança para assegurar entregas consistentes e dentro do prazo.
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="rectangle-title">José Endson</div>
+              <div class="rectangle-text">
+                Endson é integrante da equipe de desenvolvimento, especializado em back-end. Dedicado à criação da lógica do servidor,
+                gerenciamento de banco de dados e implementação de APIs, garantindo que o sistema funcione de forma eficiente e segura.
+                Ele complementa o trabalho do front-end, contribuindo para a robustez e desempenho da aplicação como um todo.
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="rectangle-title">Fábio Luiz</div>
+              <div class="rectangle-text">
+                Fábio é da equipe de desenvolvimento com foco no front-end, criando interfaces de usuário funcionais. Além de habilidades
+                técnicas, ele é especializado em marketing e apresentações, contribuindo para a eficácia dos projetos e o posicionamento
+                estratégico no mercado. Seu papel envolve tanto o desenvolvimento visual quanto a apresentação dos resultados de forma
+                impactante.
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="rectangle-title">Claybson Jordão</div>
+              <div class="rectangle-text">
+                Claybson é membro da equipe de desenvolvimento, atuando como desenvolvedor full stack. Ele possui habilidades tanto no
+                front-end quanto no back-end, o que lhe permite trabalhar em ambas camadas de desenvolvimento, desde a criação de
+                interfaces de usuário até a lógica de servidor e banco de dados.
+              </div>
+            </div>
+          </div>
         </form>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="contact-in">
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58527.00236355642!2d-46.819593185035856!3d-23.534744932096395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff085b9ef207%3A0xf21e27d4c824c4e!2sOsasco%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1636408013862!5m2!1spt-BR!2sbr"
-            width="100%"
-            height="auto"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          >
-          </iframe>
-        </div>
-        <div class="contact-form">
-          <h1>Entre em contato</h1>
-          <form>
-            <input
-              type="text"
-              placeholder="Nome"
-              class="contact-form-txt"
-              required
-            />
-            <input
-              type="text"
-              placeholder="Email"
-              class="contact-form-txt"
-              required
-            />
-            <textarea
-              placeholder="Mensagem"
-              class="contact-form-txtarea"
-              required
-            ></textarea>
-            <input
-              type="submit"
-              name="Submit"
-              class="contact-form-btn"
-              required
-            />
-          </form>
-        </div>
       </div>
     </section>
 
     <footer>
       <div class="footer-content">
-        <h3>Junin Quitanda</h3>
-        <p>Trabalho de programação WEB da universidade PUCPR, grande abraço!</p>
+        <h3>NAPS</h3>
+        <p>Landing Page Projeto Interdisciplinar 3</p>
         <ul class="socials">
           <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-          </li>
-          <li>
             <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-linkedin-square"></i></a>
           </li>
         </ul>
       </div>
       <div class="footer-bottom">
-        <p>copyright &copy;2021. designed by <span>herbert souza</span></p>
+        <p>Naps &copy;2024. Design <span>José Endson</span></p>
       </div>
     </footer>
   </body>
-</hmtl>
+</html>
